@@ -6,6 +6,20 @@ Optimised for
 puphpet/ubuntu1404-x64
 ```
 
+
+## Quick Setup
+
+1) Install virtualbox: https://www.virtualbox.org/wiki/Downloads
+
+2) Install vagrant: https://www.vagrantup.com/downloads.html
+
+3) From project folder > mac/linux rename the "Vagrantfile-nfs" to ""Vagrantfile" (windows rename "Vagrantfile-smb")
+
+4) From project folder > vagrant ssh
+
+
+
+
 ## Setup vagrant
 
 ### 1) install virtualbox
@@ -252,7 +266,7 @@ vagrant plugin uninstall vagrant-winnfsd
 
 ### Use more ram (eg. 4GB RAM)
 ```
-vb.customize ["modifyvm", :id, "--memory", "2048"]
+vb.customize ["modifyvm", :id, "--memory", "4096"]
 ```
 
 ### Symfony Performance
