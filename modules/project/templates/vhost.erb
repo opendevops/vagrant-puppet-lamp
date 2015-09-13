@@ -1,0 +1,15 @@
+<VirtualHost *:80>
+    ServerName <%= @project %>.dev
+    DocumentRoot "/var/www/webroot<%= @projectWebroot %>"
+    <Directory "/var/www/webroot<%= @projectWebroot %>">
+        Options Indexes FollowSymLinks
+        AllowOverride all
+        Allow from All
+
+        #Options Indexes FollowSymLinks
+        #AllowOverride all
+        #Order Deny,Allow
+        ##Allow from all
+        #Require all granted
+    </Directory>
+</VirtualHost>

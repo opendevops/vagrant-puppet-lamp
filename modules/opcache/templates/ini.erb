@@ -1,0 +1,29 @@
+; configuration for php ZendOpcache module
+; priority=05
+zend_extension=opcache.so
+
+;If you are in a production environment you should disabled it
+opcache.validate_timestamps     = <%= @validate_timestamps %>
+
+;Sets how much memory to use
+opcache.memory_consumption      = <%= @memory_consumption %>
+
+;Sets how much memory should be used by OPcache for storing internal strings
+;(e.g. classnames and the files they are contained in)
+opcache.interned_strings_buffer = <%= @interned_strings_buffer %>
+
+;The maximum number of files OPcache will cache
+;set to number higher than php files > "find . -type f -print | grep php | wc -l"
+opcache.max_accelerated_files   = <%= @max_accelerated_files %>
+
+;How often (in seconds) to check file timestamps for changes to the shared
+;memory storage allocation.
+opcache.revalidate_freq         = <%= @revalidate_freq %>
+
+;If enabled, a fast shutdown sequence is used for the accelerated code
+;The fast shutdown sequence doesn't free each allocated block, but lets
+;the Zend Engine Memory Manager do the work.
+opcache.fast_shutdown           = <%= @fast_shutdown %>
+
+;Enables the OPcache for the CLI version of PHP.
+opcache.enable_cli              = <%= @enable_cli %>
