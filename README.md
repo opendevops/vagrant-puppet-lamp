@@ -12,8 +12,9 @@ Optimised for `puphpet/ubuntu1404-x64`
 
 3) Mac/linux rename `Vagrantfile-nfs` to `Vagrantfile` (Windows rename `Vagrantfile-smb`)
 
-4) From project folder > vagrant ssh
+4) (optional) Edit `project_folder/manifests/default.pp` and comment out anything you don't want to install (eg. nodejs, ruby, java)
 
+5) From project folder > vagrant ssh
 
 
 
