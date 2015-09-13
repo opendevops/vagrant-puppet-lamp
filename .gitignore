@@ -1,5 +1,6 @@
 # Vagrant virtual machine
 .vagrant
+Vagrantfile
 
 # webroot
 webroot/*
