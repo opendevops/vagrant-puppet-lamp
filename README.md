@@ -1,10 +1,7 @@
 Open Dev Ops Stacks - lamp-puppet-ubuntu14.04
 ========================================
 
-Optimised for 
-```
-puphpet/ubuntu1404-x64
-```
+Optimised for `puphpet/ubuntu1404-x64`
 
 
 ## Quick Setup
@@ -13,7 +10,7 @@ puphpet/ubuntu1404-x64
 
 2) Install vagrant: https://www.vagrantup.com/downloads.html
 
-3) Mac/linux rename `Vagrantfile-nfs` to `Vagrantfile` (Win rename `Vagrantfile-smb`)
+3) Mac/linux rename `Vagrantfile-nfs` to `Vagrantfile` (Windows rename `Vagrantfile-smb`)
 
 4) From project folder > vagrant ssh
 
