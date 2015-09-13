@@ -9,11 +9,11 @@ puphpet/ubuntu1404-x64
 
 ## Quick Setup
 
-1) Install virtualbox: https://www.virtualbox.org/wiki/Downloads (windows setup with vmware workstation)
+1) Install virtualbox: https://www.virtualbox.org/wiki/Downloads (Windows use vmware)
 
 2) Install vagrant: https://www.vagrantup.com/downloads.html
 
-3) From project folder > mac/linux rename the "Vagrantfile-nfs" to ""Vagrantfile" (windows rename "Vagrantfile-smb")
+3) Mac/linux rename `Vagrantfile-nfs` to `Vagrantfile` (Win rename `Vagrantfile-smb`)
 
 4) From project folder > vagrant ssh
 
