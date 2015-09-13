@@ -9,7 +9,7 @@ puphpet/ubuntu1404-x64
 
 ## Quick Setup
 
-1) Install virtualbox: https://www.virtualbox.org/wiki/Downloads
+1) Install virtualbox: https://www.virtualbox.org/wiki/Downloads (windows setup with vmware workstation)
 
 2) Install vagrant: https://www.vagrantup.com/downloads.html
 
